@@ -1,0 +1,30 @@
+ERC report (2026-09-20T22:43:17, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5800 mils, 1800 mils): Symbol J1 Pin 3 [Pin_14, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5800 mils, 1900 mils): Symbol J1 Pin 2 [Pin_13, Passive, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5650 mils, 1500 mils): Label 'C5'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5650 mils, 1600 mils): Label 'C6'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5650 mils, 1700 mils): Label 'C7'
+[lib_symbol_mismatch]: Symbol 'Conn_01x11_Pin' doesn't match copy in library 'Connector'
+    ; warning
+    @(6000 mils, 1500 mils): Symbol J1 [Conn_01x11_Pin]
+
+ ** ERC messages: 6  Errors 2  Warnings 4
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
